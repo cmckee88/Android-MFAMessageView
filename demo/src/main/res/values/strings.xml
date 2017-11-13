@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MFAMessageView Demo</string>
+    <string name="mfa_clear">Clear</string>
+    <string name="mfa_set_name">Set Name</string>
+</resources>

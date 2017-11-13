@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-MFAMessageView.iml" filepath="$PROJECT_DIR$/Android-MFAMessageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfa-messageview/app.iml" filepath="$PROJECT_DIR$/mfa-messageview/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfa-messageview/mfa-messageview.iml" filepath="$PROJECT_DIR$/mfa-messageview/mfa-messageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/myapplication.iml" filepath="$PROJECT_DIR$/demo/myapplication.iml" />
+    </modules>
+  </component>
+</project>

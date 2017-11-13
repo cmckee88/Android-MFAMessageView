@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MFAMessageView</string>
+    <string name="mfa_profile_picture">Profile Picture</string>
+</resources>

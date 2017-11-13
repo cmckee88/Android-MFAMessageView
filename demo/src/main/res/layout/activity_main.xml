@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.multifacetedapproach.myapplication.MainActivity">
+
+    <com.multifacetedapproach.mfamessageview.MFAMessageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/mfa_message_view"
+        >
+    </com.multifacetedapproach.mfamessageview.MFAMessageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc"
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:id="@+id/receive_text"
+            android:gravity="center"
+            android:text="Receive"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"
+            android:textColor="@color/light_blue"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_below="@id/receive_text"
+            android:id="@+id/receive_photo"
+            android:background="@drawable/camera"
+            android:layout_marginStart="20dp"
+            android:layout_height="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edit_text"
+            android:background="@drawable/edit_text_background"
+            android:hint="Type message..."
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:id="@+id/send_text"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="Send"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"
+            android:textColor="@color/light_blue"
+            />
+        <Button
+            android:layout_width="30dp"
+            android:layout_below="@id/send_text"
+            android:id="@+id/send_photo"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/camera"
+            android:layout_marginEnd="20dp"
+            android:layout_height="30dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
